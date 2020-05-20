@@ -7,7 +7,6 @@ public class Array9 {
         int selisih;
         for (int a = 0; a < nilai.length-1; a++){
             selisih=nilai[a]-nilai[a+1];
-            selisih=Math.decrementExact(selisih);
             System.out.println("Selisih dari nilai "+nilai[a]+"-"+nilai[a+1]+" = "+ selisih);
         }
     }

@@ -10,7 +10,6 @@ public class Array10 {
                 for(int b = a+1; b<13; b++){
                     if (nilai[b]%2==0){
                         selisih = nilai[a]-nilai[b];
-                        selisih = Math.decrementExact(selisih);
                         System.out.println("Selisih dari "+ nilai[a] + "-" + nilai[b] + " = " + selisih);
                         break;
                     }

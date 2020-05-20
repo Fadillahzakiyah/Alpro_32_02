@@ -8,7 +8,6 @@ public class Array13 {
         System.out.println("Menampilkan jumlah angka-angka selisih yang ditampilkan pada Class Array9");
         for(int a = 0; a < nilai.length-1; a++){
             selisih = nilai[a]-nilai[a+1];
-            selisih = Math.decrementExact(selisih);
             System.out.print(selisih + " ");
             jumlah = jumlah + selisih;
         }
